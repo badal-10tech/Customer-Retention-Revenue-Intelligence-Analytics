@@ -34,6 +34,7 @@ This project covers:
 ## Tech Stack
 
 ### Programming & Analysis
+
 - Python
 - Pandas
 - NumPy
@@ -41,9 +42,11 @@ This project covers:
 - Seaborn
 
 ### Database
+
 - MySQL
 
 ### Visualization
+
 - Tableau
 
 ---
@@ -100,67 +103,45 @@ Created:
 
 ### 3. Exploratory Data Analysis (EDA)
 
-Performed visual analysis to understand customer behavior and sales trends.
+Performed exploratory data analysis to identify patterns in customer purchasing behavior and sales performance.
 
-#### Customer Revenue Distribution
+#### Revenue Distribution
 
-```python
-sns.histplot(df["Customer_Lifetime_Revenue"], bins=20, kde=True)
-plt.title("Customer Revenue Distribution")
-plt.show()
-```
+Analyzed the distribution of customer lifetime revenue to understand customer spending behavior.
+
+![Revenue Distribution](eda/revenue_distribution.png)
+
+---
 
 #### Top 10 Products by Revenue
 
-```python
-top_products = df.groupby(
-    ["StockCode","Description"]
-)["Revenue"].sum().sort_values(
-    ascending=False
-).head(10)
+Identified the highest revenue-generating products.
 
-top_products.plot(kind="barh")
-plt.title("Top 10 Products by Revenue")
-plt.show()
-```
+![Top Products by Revenue](eda/top_products.png)
+
+---
 
 #### Revenue by Country
 
-```python
-country_revenue = df.groupby(
-    "Country"
-)["Revenue"].sum().sort_values(
-    ascending=False
-).head(10)
+Analyzed which countries contributed the highest revenue.
 
-country_revenue.plot(kind="barh")
-plt.title("Revenue by Country")
-plt.show()
-```
+![Revenue by Country](eda/revenue_by_country.png)
+
+---
 
 #### Monthly Revenue Trend
 
-```python
-monthly_revenue = df.groupby(
-    ["Year","Month_number"]
-)["Revenue"].sum()
+Visualized monthly revenue to identify seasonality and sales growth patterns.
 
-monthly_revenue.plot(kind="line")
-plt.title("Monthly Revenue Trend")
-plt.show()
-```
+![Monthly Revenue Trend](eda/monthly_revenue_trend.png)
+
+---
 
 #### Revenue by Customer Segment
 
-```python
-sns.barplot(
-    data=rfm_df,
-    x="Customer_Segment",
-    y="Monetary"
-)
-plt.title("Revenue by Customer Segment")
-plt.show()
-```
+Compared revenue contribution across customer segments.
+
+![Revenue by Customer Segment](eda/revenue_by_segment.png)
 
 ---
 
@@ -230,6 +211,12 @@ Built three interactive dashboards.
 
 ---
 
+## Dashboard 1 Preview
+
+![Dashboard 1](Dashboard1.png)
+
+---
+
 ## Dashboard 2 — Customer Intelligence & RFM Analytics
 
 ### KPIs
@@ -249,6 +236,12 @@ Built three interactive dashboards.
 - RFM Segment Distribution
 - Revenue by Customer Segment
 - Customer Lifetime Revenue Distribution
+
+---
+
+## Dashboard 2 Preview
+
+![Dashboard 2](Dashboard2.png)
 
 ---
 
@@ -274,21 +267,7 @@ Built three interactive dashboards.
 
 ---
 
-## Dashboard Screenshots
-
-### Dashboard 1 — Executive Sales Overview
-
-![Dashboard 1](Dashboard1.png)
-
----
-
-### Dashboard 2 — Customer Intelligence & RFM Analytics
-
-![Dashboard 2](Dashboard2.png)
-
----
-
-### Dashboard 3 — Retention & Churn Analytics
+## Dashboard 3 Preview
 
 ![Dashboard 3](Dashboard3.png)
 
@@ -336,6 +315,13 @@ Built three interactive dashboards.
 │   ├── Dashboard1.png
 │   ├── Dashboard2.png
 │   ├── Dashboard3.png
+│
+├── eda/
+│   ├── revenue_distribution.png
+│   ├── top_products.png
+│   ├── revenue_by_country.png
+│   ├── monthly_revenue_trend.png
+│   ├── revenue_by_segment.png
 │
 ├── README.md
 ```
