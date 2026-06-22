@@ -213,7 +213,7 @@ Built three interactive dashboards.
 
 ## Dashboard 1 Preview
 
-![Dashboard 1](Dashboard1.png)
+![Dashboard 1](Visuals/Dashboard1.png)
 
 ---
 
@@ -241,7 +241,7 @@ Built three interactive dashboards.
 
 ## Dashboard 2 Preview
 
-![Dashboard 2](Dashboard2.png)
+![Dashboard 2](Visuals/Dashborad2.png)
 
 ---
 
@@ -269,7 +269,7 @@ Built three interactive dashboards.
 
 ## Dashboard 3 Preview
 
-![Dashboard 3](Dashboard3.png)
+![Dashboard 3](Visuals/Dashboard3.png)
 
 ---
 
