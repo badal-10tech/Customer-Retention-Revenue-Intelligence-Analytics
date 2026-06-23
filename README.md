@@ -109,7 +109,7 @@ Performed exploratory data analysis to identify patterns in customer purchasing 
 
 Analyzed the distribution of customer lifetime revenue to understand customer spending behavior.
 
-![Revenue Distribution](eda/revenue_distribution.png)
+![Revenue Distribution](Visuals/revenue_distribution.png)
 
 ---
 
@@ -117,7 +117,7 @@ Analyzed the distribution of customer lifetime revenue to understand customer sp
 
 Identified the highest revenue-generating products.
 
-![Top Products by Revenue](eda/top_products.png)
+![Top Products by Revenue](Visuals/top_products.png)
 
 ---
 
@@ -125,7 +125,7 @@ Identified the highest revenue-generating products.
 
 Analyzed which countries contributed the highest revenue.
 
-![Revenue by Country](eda/revenue_by_country.png)
+![Revenue by Country](Visuals/revenue_by_country.png)
 
 ---
 
@@ -133,7 +133,7 @@ Analyzed which countries contributed the highest revenue.
 
 Visualized monthly revenue to identify seasonality and sales growth patterns.
 
-![Monthly Revenue Trend](eda/monthly_revenue_trend.png)
+![Monthly Revenue Trend](Visuals/monthly_revenue_trend.png)
 
 ---
 
@@ -141,7 +141,7 @@ Visualized monthly revenue to identify seasonality and sales growth patterns.
 
 Compared revenue contribution across customer segments.
 
-![Revenue by Customer Segment](eda/revenue_by_segment.png)
+![Revenue by Customer Segment](Visuals/revenue_by_segment.png)
 
 ---
 
@@ -373,10 +373,10 @@ Customer Retention & Revenue Intelligence Analytics.twb
 
 ## Author
 
-Your Name
+Badal Singh Dashmer
 
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+GitHub: https://github.com/badal-10tech  
+LinkedIn: https://www.linkedin.com/in/badal-singh-dashmer-a04856209/
 
 ---
 
