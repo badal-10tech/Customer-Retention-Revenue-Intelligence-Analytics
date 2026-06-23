@@ -348,11 +348,17 @@ jupyter notebook customer_retention_analysis.ipynb
 source customer_retention_SQL_Query.sql
 ```
 
-### Open Tableau Dashboard
+### Tableau Dashboard Access
+
+Local File:
 
 ```text
 Customer Retention & Revenue Intelligence Analytics.twb
 ```
+
+Live Dashboard:
+
+[Tableau Public Dashboard](https://public.tableau.com/app/profile/badal.singh.dashmer/viz/CustomerRetentionRevenueIntelligenceAnalytics/RetentionChurnAnalytics)
 
 ---
 
