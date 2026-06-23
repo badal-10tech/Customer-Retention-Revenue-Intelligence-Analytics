@@ -345,7 +345,7 @@ jupyter notebook customer_retention_analysis.ipynb
 ### Run SQL File
 
 ```sql
-source customer_retention_SQL_Query.sql;
+sql/customer_retention_SQL_Query.sql
 ```
 
 ### Open Tableau Dashboard
